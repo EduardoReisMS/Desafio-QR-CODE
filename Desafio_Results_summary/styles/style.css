@@ -7,8 +7,13 @@
 
 @import url('https://fonts.google.com/specimen/Hanken+Grotesk');
 
+h1, p {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
 body {
     font-size: 18px;
+    background-color: hsl(221, 100%, 96%);
 }
 
 #container {
@@ -21,45 +26,65 @@ body {
 
 #conteudo {
     display: flex;
-    
+    background-color: white;
 }
 
 #result {
-    background-color: darkgray;
     width: 200px;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 20px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 67%, 57%));
 }
 
 .corgray {
-    
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 15px;
+}
+
+#descricao {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#yourresult {
+    padding: 10px 0px 20px 0px;
 }
 
 .resultado {
     display: flex;
-    flex-direction: column;
-    line-height: 100px;
-    color: white;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    background-color: hsla(256, 72%, 46%, 1);
-    width: 100px;
-    height: 100px;
+    color: white;
+    background-color: hsla(252, 70%, 46%, 0.61);
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
 }
 
-.resultado > p {
-    
+#result01 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    height: 4vh;
+    padding-bottom: 14px;
 }
 
+#result02 {
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
+}
 .great {
     color: white;
+    padding: 15px 0px;
+    font-size: 1.3em;
+    font-weight: bolder;
 }
 
 #summary {
-    background-color: gray;
-    border-radius: 10px;
+    background-color: white;
+    
     padding: 10px;
 }
 
