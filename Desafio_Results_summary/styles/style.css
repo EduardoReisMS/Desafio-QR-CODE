@@ -170,6 +170,15 @@ body {
     cursor: pointer;
 }
 
+footer {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 500px) {
     #container {
         display: flex;
