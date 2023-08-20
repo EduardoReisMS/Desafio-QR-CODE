@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+:root {
+    --cor-hover-letra: hsl(178, 100%, 50%);
+    --cor-paragrafo: hsl(215, 51%, 70%);
+    --cor-main: hsl(217, 54%, 11%);
+    --cor-card-bg: hsl(216, 50%, 16%);
+}
+
 @media screen and (min-width: 1024px) {
-    
+    #child {
+        width: 25%;
+    }
+
+    #author:hover, h1:hover{
+        color: var(--cor-hover-letra);
+        cursor: pointer;
+    }
 }
