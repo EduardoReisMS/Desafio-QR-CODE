@@ -16,4 +16,13 @@
         color: var(--cor-hover-letra);
         cursor: pointer;
     }
+
+    #imgnft{
+        -webkit-filter:grayscale(100%);
+    }
+    #imgnft:hover{
+        -webkit-filter:grayscale(0%);
+        transition: 1s;
+        cursor: pointer;
+    }
 }
