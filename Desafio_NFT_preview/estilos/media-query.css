@@ -18,11 +18,11 @@
     }
 
     #imgnft{
-        filter:grayscale(100%);
+        filter:grayscale(0%);
     }
 
     #imgnft:hover{
-        filter:grayscale(0%);
+        filter:grayscale(100%);
         transition: 1s;
         cursor: pointer;
     }
