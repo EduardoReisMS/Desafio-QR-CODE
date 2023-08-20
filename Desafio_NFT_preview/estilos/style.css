@@ -37,11 +37,12 @@ section#container {
     background-color: var(--cor-card-bg);
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .infos {
     margin: auto;
-    width: 290px;
+    width: 300px;
 }
 
 .infos > h1, p {
@@ -49,15 +50,76 @@ section#container {
     margin: 10px 0px;
 }
 
-.alinhamento {
-    display: flex;
-    justify-content: space-between;
+.infos > h1 {
+    color: white;
+    margin: 20px 0px;
 }
 
 .infos > p {
     font-size: 18px;
 }
 
+p {
+    color: var(--cor-paragrafo);
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    color: var(--cor-paragrafo);
+    font-weight: 600;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+hr {
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.alinhamento svg {
+    margin: 0px;
+}
+
+#valor {
+    color: var(--cor-hover-letra);
+    margin-right: 100px;
+}
+
 #imgnft {
-    width: 290px;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+#sectionauthor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#sectionauthor > p {
+    font-weight: 400;
+}
+
+#imgauthor {
+    width: 37px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#author {
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
 }
