@@ -94,6 +94,9 @@ hr {
     border-radius: 10px;
 }
 
+.olho {
+    display: none;
+}
 
 #sectionauthor {
     display: flex;
